@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="./universal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+    <div class="container" >
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About us</a></li>
+             <li><a href="#services">services</a></li>
+             <li><a href="#portfolio">portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Python Developer</p>
+            <h1>Hi, I'm<span>Ashok oli</span><br>   From Nepal</h1>
+
+        </div>
+    </div>
+    </div>
+
+    <!--  about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <dev class="about-col-1">
+                    <img src="images/ashok.jpg">
+                </dev>
+                <dev class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I am Ashok Oli, backend developer and web developer by hobby, residing in Nepal. I am skilled at building responsive web applications, crafting user-friendly interfaces, and data analysis in Excel.<br>
+                       <br>
+                         With a strong background in Python and Django, I have developed various web projects that have addressed various real-life issues. I do not wish to merely write code but build smooth and useful experiences for users.<br>
+                           <br>
+                            I also enjoy UI/UX design and enjoy taking tough ideas and turning them into beautiful, nice-looking designs. I am also well-versed in Microsoft Excel and able to utilize it to analyze data, generate reports, and automate processes.<br>
+                           <br>
+                           I am always excited to learn new technology and challenges. If you're looking for someone who is serious, detail-oriented, and enjoys working in a team — don't think twice to contact!
+
+                            </p>
+                            <br>
+                       
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <dev class="tab-contents active-tab" id="skills">
+                            <ul>
+                                 <li><span>Django</span><br>python django backend</li>
+                                <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Developer</span><br>Web app Developer</li>
+                                 <li><span>Excel</span><br>Excel</li>
+                            </ul>
+
+                        </dev>
+                        <dev class="tab-contents" id="Experience">
+                            <ul>
+                                
+                                <li><span>2024 - current</span><br>django backend </li>
+                                <li><span>2023 - 2024</span><br>web deveplor </li>
+                                <li><span>2022-2023</span><br>UI/UX designer</li>
+                                 <li><span>2023-current</span><br>Excel</li>
+                                
+                            </ul>
+                        </dev>
+                        <dev class="tab-contents" id="Education">
+                            <ul>
+                                
+                                <li><span>2020</span><br>10 pass from Salyan </li>
+                                <li><span>2022</span><br>12 pass from Ghorahi'Dang'</li>
+                                <li><span>2025</span><br>BSc.CSIT from kathmandu</li>
+                            </ul>
+
+                        </dev>
+                </dev>
+            </div>
+        </div>
+    </div>
+
+    <!--  ------services------ -->
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+     <div>
+        <i class="fa-solid fa-code"></i>
+        <h2> Web Design</h2>
+        <p>I build responsive, up-to-date websites that are beautiful across all devices. If you're building from the ground up or require a redesign, I'll build a website that represents your brand and speaks to your audience
+              </p>
+           
+     </div>
+     <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2> UI/UX Design</h2>
+        <p>The user experience is everything. The design will be intuitive and visually compelling while improving usability and delighting users-from wireframes to polished prototypes</p>
+            
+     </div>
+     <div>
+       <i class="fa-brands fa-app-store"></i>
+        <h2>Excel</h2>
+        <p>Advanced Excel spreadsheets tailored to your business needs-from automation through formulas and macros, to data analysis and dashboards-will help you save time and make better decisions.</p>
+            
+           </div>
+        </div>   
+    </div>
+</div>
+
+<!-- ----- portfolio ---- -->
+
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+
+        <div class="work">
+            <img src="images/work1.png">
+            <div class="layer">
+            <h3>social media App</h3>
+            <p>The app connectes you yo the talented people around the world
+                Download it from play store</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/work3.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p> The app connectes you yo the talented people around the world
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="images/work4.png">
+            <div class="layer">
+                <h3>Online shoping App</h3>
+                <p>The app connectes you yo the talented people around the world
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----- contact ----- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=" sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ashokoli642@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9809545977</p>
+                <br>
+                <div class="social-icons">
+    <a href="https://www.facebook.com/asaeka.oli" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook-square"></i>
+    </a>  
+    <a href="https://www.linkedin.com/in/ashok-oli-b32b07350/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/ashok_oli/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+</a>
+
+</div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" value="submit" class="btn btn2">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="ashok">
+    <p>I <i class="fa-solid fa-heart"></i>python language</p>
+  </div>
+</div>
+
+
+
+
+    <!-- ------ Jabascript for About Me ---- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            // Remove active class from all tab links
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+        
+            // Remove active class from all tab contents
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+        
+            // Add active class to the clicked tab link and corresponding tab content
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+</body>
+</html>
