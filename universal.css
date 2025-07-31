@@ -244,23 +244,22 @@ margin:20px 0 40px;
 .work:hover .layer{
    height: 100%;
 }
-.btn{
-   display:block;
-   margin: 50px auto;
-   width:fit-content;
-   border: 1px solid #ff004f;
-   padding: 10px 15px;
-   border-radius: 6px;
-   text-decoration:none;
-   color:#ababab;
-   transition: background 0.5s;
-}
-.btn:hover{
-   background: #ff004f;
-}
-/*---- contact */
 
+/*---- contact */
+#contact{
+   width: 100%;
+   height: auto;
+}
+#contact .container{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px 0;
+}
 .contact-left{
+
    flex-basis: 35%;
 }
 .contact-right{
